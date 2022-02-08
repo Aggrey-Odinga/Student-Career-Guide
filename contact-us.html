@@ -43,6 +43,9 @@
        <h2>Let’s connect – Get social</h2>
        <div>
        <i class="fab fa-facebook"></i>
+       <i class="fab fa-youtube"></i>
+       <i class="fab fa-linkedin-in"></i>
+       <i class="fab fa-twitter-square"></i>
        
    </div>
 
@@ -50,9 +53,40 @@
    </div>
 </div>
 <div>
-   <form type="submit">
+   <form method="POST">
        <h2>Send us your questions</h2>
-       <label></label>
+       <label for="name">Your Name(required)</label>
+       <br>
+       <input type="text" name="name" id="name">
+       <br>
+       <labal for="email">Your Email(required)</labal>
+       <br>
+       <input type="text" name="email" id="email">
+       <br>
+       <label for="contact">Your Contact Number(Required)</label>
+       <br>
+       <input type="text" name="contact" id="contact">
+       <br>
+       <label for="county">Your Current County( Required)</label>
+       <br>
+       <input type="text" listname="county" id="county">
+       <datalist id="counties">
+         <option value=""></option>
+       </datalist>
+       <br>
+       <label for="documents">Upload your resume in pdf,doc, or docx format(optional)</label>
+       <input type="button" id="documents" No file chosen><button>Choose File</button>
+       <br>
+       <label for="message">Your Message(Required)</label> 
+       <br>
+       <input type="text" id="message" name="message">
+       <br>
+       <label for="google">What did you type into Google to find us?(Required)</label>
+       <br>
+       <input type="text" name="google" id="google">
+       <br>
+       <button type="submit">Send</button>
+
    </form>
 </div>
 
