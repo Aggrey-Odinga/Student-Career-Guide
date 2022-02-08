@@ -5,15 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/80de2251fe.js" crossorigin="anonymous"></script>
+  <link src="styelesheet" href="./css/style.css">
   <title>Document</title>
 </head>
 <body>
-  
-</body>
-</html>
-
-
-
 
 <div class="contact">
   <h1>Contact Us – Your Career Management Experts</h1> 
@@ -69,13 +64,11 @@
        <br>
        <label for="county">Your Current County( Required)</label>
        <br>
-       <input type="text" listname="county" id="county">
-       <datalist id="counties">
-         <option value=""></option>
-       </datalist>
-       <br>
-       <label for="documents">Upload your resume in pdf,doc, or docx format(optional)</label>
-       <input type="button" id="documents" No file chosen><button>Choose File</button>
+       <select name="county" id="county"></select>
+       <p>Upload your resume in pdf, doc or docx format (optional)</p>
+       <p><button>Choose File</button>No file chosen</p>
+       <p>Your Message(required)</p>
+       <textarea rows="20" cols="50" name="resume" form="usrform"></textarea>
        <br>
        <label for="message">Your Message(Required)</label> 
        <br>
@@ -91,3 +84,6 @@
 </div>
 
 </div>
+<script src="./js/script.js"></script>
+</body>
+</html>
