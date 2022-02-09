@@ -12,7 +12,11 @@ h3 {
 p {
   vertical-align: baseline;
   text-align: justify;
+<<<<<<< HEAD
   color: rgb(30, 255, 0);
+=======
+  color: rgb(60, 255, 0);
+>>>>>>> main
   font-size: 13px;
   font-family: 'open sans condensed', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif
 }
