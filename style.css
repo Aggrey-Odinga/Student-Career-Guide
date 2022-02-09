@@ -5,12 +5,12 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-/*header style*/
+
 .header {
-  min-height: 100vh;
+  min-height: 70vh;
   width: 100%;
   overflow: hidden;
-  background: url("../images/rut-miit-3EMw3T-ZjkE-unsplash.jpg");
+  background: url(./images/rut-miit-3EMw3T-ZjkE-unsplash.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -108,27 +108,28 @@ a:hover {
 }
 
 
-
-
-h1,
-h2,
-h3 {
-  letter-spacing: 1px;
-  font-size: 25px;
-  color: #51fa27;
-  font-weight: 600;
-  line-height: 1.1em;
-  font-family: 'open sans condensed', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+.container{
+  margin-top: 50px;
 }
 
-p {
-  vertical-align: baseline;
-  text-align: justify;
-  color: rgb(0, 89, 255);
-  font-size: 13px;
-  font-family: 'open sans condensed', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif
+.POM{
+  margin-top: 100px;
 }
 
-.contact {
-  color: forestgreen;
+.POM1{
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.button{
+background-color: #078ef5;
+padding: 10px;
+border: none;
+border-radius: 12px;
+}
+
+.links1{
+float: left;
 }
