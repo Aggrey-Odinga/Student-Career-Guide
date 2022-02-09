@@ -1,0 +1,18 @@
+h1,h2,h3{
+  letter-spacing: 1px;
+  font-size: 25px;
+  color: #222222;
+  font-weight: 600;
+  line-height: 1.1em;
+  font-family: 'open sans condensed', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+}
+p{
+  vertical-align: baseline;
+  text-align: justify;
+  color: red;
+  font-size: 13px;
+  font-family: 'open sans condensed', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif
+}
+.contact{
+  color:
+}

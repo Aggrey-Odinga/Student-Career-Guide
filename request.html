@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link src="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <h2>Request your free career consultation.</h2>
+    <p>Fill in the form below and talk to one of our career coaches at SCGuide to discuss your next career step and strategise your career path to reach your full potentials and goals</p>
+  </div>
+  <div>
+    <form method="POST">
+      <h2>Step 1: Contact Details</h2>
+      <br>
+      <label for="first">First Name(Required)</label>
+      <br>
+      <input type="text" name="first" id="name">
+      <br>
+      <label for="last">Last Name(required)</label>
+      <br>
+      <input type="text" name="last" id="last">
+      <br>
+      <label for="email">Email(required)</label>
+      <br>
+      <input type="text" name="email" id="email">
+      <br>
+      <label for="mobile">Mobile Phone(required)</label>
+      <br>
+      <input type="text" name="mobile" id="mobile">
+      <br>
+      <label for="county">Your Current County(required)</label>
+      <br>
+      <select name="county" id="county">
+        
+      </select>
+
+      <br>
+      <h3>Cover Letter</h3>
+      <p>Upload your cover letter(Optional)</p>
+      <p><button>Choose File</button>No file chosen</p>
+      <h3>OR</h3>
+      <p>Please enter your resume here as text(Optional)</p>
+      <textarea rows="20" cols="50" name="resume" form="usrform"></textarea>
+      <h3>Step 2: Work Details</h3>
+      <label for="situation">Which situation describe you best?</label>
+      <br>
+      <select id="situation" name="situation">
+        <option value="unemployed">Unemployed</option>
+        <option value="Seeking advancement with my current employer">Seeking advancement with my current employer</option>
+        <option value="Seeking transition to a new employer">Seeking transition to a new employer</option>
+        <option value="I want to change in career direction">I want to change in career direction</option>
+        <option value="I want to manage my career beter">I want to manage my career beter</option>
+      </select>
+      <br>
+      <label for="industry">Which industry is your preference?</label>
+      <br>
+      <select id="industry" name="industry">
+        <option value="accounting">Accounting</option>
+        <option value="banking and finance">Banking and Finance</option>
+        <option value="Agriculture & Conservation">Agriculture & Conservation</option>
+        <option value="Legal">Legal</option>
+        <option value="Logistic and Transportation">Logistic and Transportation</option>
+        <option value="Healthcare and Medical">Healthcare and Medical</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Construction">Construction</option>
+        <option value="Education and Training">Education and Training</option>
+        <option value="Science and Technology">Science and Technology</option>
+        <option value="Hospitality and Tourism">Hospitality and Tourism</option>
+        <option value="HR & Recruitment">HR & Recruitment</option>
+        <option value="Advertising & Media">Advertising & Media</option>
+        <option value="tAdministration & Office suppor">Administration & Office suppor</option>
+        <option value="Design,Arts & Architecture">Design,Arts & Architecture</option>
+      </select>
+
+    
+    </form>
+  </div>
+  <script src="./js/script.js"></script>
+
+</body>
+</html>
