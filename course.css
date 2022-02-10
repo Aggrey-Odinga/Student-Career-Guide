@@ -11,9 +11,9 @@ body{
     border: 2px solid black;
 }
 header{
-    margin-left: 50px;
+    margin-left: 10px;
     padding: left 50px;
-    background-color: brown;
+    background-color: #42b7ff;
     box-shadow: 0 3px 4px 3px;
 }
 .container{
@@ -36,7 +36,7 @@ header{
     margin: 20px;
     padding: 20px;
 }
-.univ-coursebdy{
+.univ-coursebdy ,.coursebdy2{
     width: 50%;
     margin-right: 15px;
     margin-left: 15px;
@@ -44,10 +44,13 @@ header{
     padding-left: 30px;
     padding-top: 10px;
     box-shadow: 2px 3px 2px 3px;
+    text-decoration: none;
 }
 .univ-course-head{
-    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 10px;
     padding: left 50px;
-    background-color: brown;
+    background-color: #42b7ff;
     box-shadow: 0 3px 4px 3px;
 }
