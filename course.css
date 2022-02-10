@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 20px;
+    padding: 40px;
+    line-height: 1.6;
+    font-size: 25px;
+    border: 2px solid black;
+}
+header{
+    margin-left: 50px;
+    padding: left 50px;
+    background-color: brown;
+    box-shadow: 0 3px 4px 3px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    /* background-color: chartreuse; */
+}
+.container-course1 ,.container-course2{
+    width: 50%;
+    /* background-color: tomato; */
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    box-shadow: 2px 3px 2px 3px;
+}
+.main-course{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+.univ-coursebdy{
+    width: 50%;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    box-shadow: 2px 3px 2px 3px;
+}
+.univ-course-head{
+    margin-left: 50px;
+    padding: left 50px;
+    background-color: brown;
+    box-shadow: 0 3px 4px 3px;
+}

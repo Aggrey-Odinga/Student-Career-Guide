@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-image: url(images/backgroundimage.jpeg); */
+    font-family: 30px'poppins', sans-serif;
+    background-color: whitesmoke;
+    line-height: 1.6;
+}
+.bgimg{
+    position: absolute;
+    opacity: 0.4;
+    width: 100%;
+    height: 75vh;
+    background-size: contain;
+}
+
+.services{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    /* background-color: blue; */
+}
+.services .services-head h2{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color:rgb(76, 161, 76);
+}
+
+ .vision{
+     width: 50%;
+     font-size: 20px;
+     /* background-color: red; */
+     padding: 15px;
+     margin: 30px;
+     font-weight: 600;
+ }
+ .visionh2 , .missionh2{
+     text-align: center;
+     font-size: 25px;
+     color: orange;
+     
+ }
+ .mission{
+     float: right;
+     width: 50%;
+     font-size: 20px;
+     margin: 30px;
+     padding: 15px;
+     font-weight: 600;
+ }
+ .career-gd{
+     clear: both;
+ }
+
+ .careerbody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    word-spacing: 4px;
+    height: 60vh;
+    
+}
+.caarer-gd-p{
+    justify-content: space-around;
+    padding: 20px;
+}
+ .careerbody .career-gd-img img{
+    width: 600px;
+}
+.financialhd, .career-gdhd{
+    text-align: center;
+    font-size: 50px;
+    color: #42b7ff;
+}
+ .Financial{
+     overflow: hidden;
+ }
+ 
+ .financial-support{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 50vh;
+
+ }
+ .financial-img{
+     width: 50%;
+     
+ }
+ .financial-img img{
+     width: 500px;
+ }
+ 
+ .financialhd{
+     margin-bottom: 40px;
+ }
+ 
+ .financial-par{
+     width: 100%;
+     font-size: 20px;
+     margin: 20px;
+     padding: 15px;
+
+ }
+ .financial-par, ul{
+     margin-left: 40px;
+     padding-left:20px;
+ }
+ .cv-polishing{
+     width: 100%;
+ }
+ .cv-polishinghd{
+     text-align: center;
+     color: #42b7ff;
+     margin: 10px;
+     font-size: 50px;
+ }
+ .cv-polishing-img img{
+     width: 50%;
+     /* margin: 10px; */
+  
+ }
+ .cvpolishingbody{
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     align-items: center;
+     height: 60vh;
+     /* background-color: aqua; */
+    
+}
+ 
+ 
+ div{
+     margin: 10px;
+ }
+ div .container{
+     background-color: yellow;
+ }
