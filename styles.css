@@ -322,17 +322,13 @@ p{
 }
 .employers{
     position: relative;
-    
-    /* background-image: url('./images/career2.jpg');
-    background-size: cover; */
-    
 }
 .employers>img{
     position: absolute;
     opacity: 0.2;
     background-size: cover;
     width: 100%;
-    height: 200vh;
+    height: 169vh;
 }
 .dos{
     position: relative;
