@@ -153,6 +153,9 @@ form,textarea{
 .foot ul li a{
   text-decoration: none;
 }
+.foot{
+  line-height: 30px;
+}
 .image .fa-twitter-square{
   font-size: 40px;
   color: #3A589B;
