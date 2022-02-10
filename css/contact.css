@@ -1,20 +1,144 @@
-h1,
-h2,
-h3 {
+
+body{
+  margin: 50px;
+
+}
+
+
+h1{
+  margin-bottom: 14px;
   letter-spacing: 1px;
   font-size: 25px;
   color: #222222;
   font-weight: 600;
   line-height: 1.1em;
-  font-family: 'open sans condensed', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-family: 'open sans condensed', 'HelveticaNeue', 'Helvetica Neue', 
+  'Helvetica-Neue', Helvetica, Arial, sans-serif;
+}
+h2{
+  color: #333333;
+  letter-spacing: 1px;
+  font-size: 22px;
+  margin-bottom: 10px;
+  line-height: 1.1em;
+  font-weight: 600px;
+  display: block;
+  font-family: 'open sans condensed', 'HelveticaNeue', 'Helvetica Neue', 
+  'Helvetica-Neue', Helvetica, Arial, sans-serif;
+}
+h3{
+  line-height: 1.1em;
+  margin-bottom: 10px;
+  font-weight: 600px;
+  display: block;
+  font-size: 20px;
+  color: #333333;
+  font-family: 'open sans condensed', 'HelveticaNeue', 'Helvetica Neue', 
+  'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  
 }
 
 p {
-  vertical-align: baseline;
+  margin: 0.8em 0;
+  word-spacing: 2px;
+  line-height: 20px;
   text-align: justify;
-  color: rgb(30, 255, 0);
+  color: grey;
   font-size: 13px;
-  font-family: 'open sans condensed', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif
+  font-family: 'open sans condensed', 'HelveticaNeue', 'Helvetica Neue', 
+  'Helvetica-Neue', Helvetica, Arial, sans-serif
+}
+
+.info{
+  width: 300px;
+}
+.images .fa-twitter-square{
+font-size: 50px;
+color: white;
+background-color: #45B0E3;
+}
+.images .fa-facebook{
+color:#3A589B;
+font-size:65px ;
+}
+.images .fa-youtube{
+  font-size: 50px;
+  color:#FFF;
+  background-color:#E33F20;
+  border-radius: 50%;
+  padding: 10px;
+}
+.images .fa-linkedin-in{
+  font-size: 50px;
+ background-color: #007AB9; 
+ color: white;
+ border-radius: 50%;
+ padding: 10px;
+}
+.media{
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 100px;
+}
+.media a{
+  padding:7px;
+  background-color:#B23128 ;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+}
+span{
+  color: #B23128;
+}
+.map1{
+  display: flex;
+  justify-content: space-around;
+}
+.map img{
+  width: 650px;
+  height: 600px;
+  color: red;
+}
+.map,h1,h2{
+  text-align: center;
+  color: #AB3D45;
+  
+}
+
+form ,input{
+  width: 450px;
+  height: 28px;
+  margin-bottom: 20px;
+  border:1px solid #A09E9E;
+
+  
+}
+form ,select{
+width: 400px;
+height: 30px;
+border: none;
+background-color: #FCFCFC;
+margin-bottom: 20px;
+}
+form,textarea{
+  margin-bottom: 20px;
+  width: 450px;
+}
+.send{
+  border: none;
+  width: 80px;
+  height: 28px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: white;
+  background-color:#EC443B ;
+}
+.request{
+  position: relative;
+  left: 200px;
+  width: 500px;
 }
 
 /* .contact{
