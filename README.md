@@ -71,7 +71,7 @@ SOFTWARE.
 
 ## Authors Info
 
-din.com/in/albert-byrone-664811144/)
+
 
 [Go Back to the top](#portfolio)
 
